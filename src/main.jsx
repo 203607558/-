@@ -16,7 +16,6 @@ import {
   Minus,
   MonitorPlay,
   Palette,
-  Phone,
   Plus,
   RotateCcw,
   Sparkles,
@@ -186,7 +185,6 @@ if (initialHash) {
 const profile = {
   name: "杨凡",
   city: "宁波",
-  phone: "18805821100",
   email: "203607558@qq.com",
   wechat: "GPCS-2512",
   title: "视觉设计师 / AI设计师 / 品牌设计师",
@@ -501,10 +499,6 @@ function About() {
               </div>
               <h3>{profile.name}</h3>
               <div className="contact-strip">
-                <a href={`tel:${profile.phone}`}>
-                  <Phone size={18} />
-                  {profile.phone}
-                </a>
                 <a href={`mailto:${profile.email}`}>
                   <Mail size={18} />
                   {profile.email}
@@ -2553,10 +2547,6 @@ function Contact() {
         </span>
         <h2>期待与你讨论下一个品牌视觉、AI 设计或电商项目。</h2>
         <div className="contact-actions">
-          <a href={`tel:${profile.phone}`}>
-            <Phone size={20} />
-            {profile.phone}
-          </a>
           <a href={`mailto:${profile.email}`}>
             <Mail size={20} />
             {profile.email}
