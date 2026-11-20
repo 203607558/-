@@ -611,7 +611,7 @@ function Projects() {
 }
 
 function AigcVideoModule() {
-  const mainVideos = mainAigcVideos.slice(0, 4);
+  const mainVideos = mainAigcVideos;
   const shortVideos = douyinVideos;
 
   if (mainVideos.length === 0 && shortVideos.length === 0) {
